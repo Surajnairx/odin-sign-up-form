@@ -8,6 +8,75 @@
     <title>Sign Up Form</title>
   </head>
   <body>
-    <h1>Hello world</h1>
+    <section id="display-container">
+      <div id="display-image">
+        <img
+          src="https://flagondragon.github.io/sign-up-form/images/odin-lined.png"
+          alt="odin-image"
+          id="odin-image"
+        />
+        <h1>ODIN</h1>
+      </div>
+      <div id="creator-credit">
+        Photo by <a href="https://unsplash.com/@haliewestphoto">HalieWest</a>on
+        <a href="https://unsplash.com/">Unsplash</a>
+      </div>
+    </section>
+    <section id="form-container">
+      <div id="form-heading">
+        <h3>
+          This is not a real online service! You know you need something like
+          this in your life to help you realize your deepest dreams. Sign up
+          <i>now</i>
+          to get started.
+        </h3>
+        <br />
+        <h3>You <i>know</i> you want to.</h3>
+      </div>
+
+      <form id="myForm">
+        <h3 id="moti">Let's do this!</h3>
+        <div id="form">
+          <div id="formsLeft">
+            <div>
+              <label for="first-name">FIRST NAME</label>
+              <input type="text" name="first-name" id="first-name" />
+            </div>
+            <div>
+              <label for="emial">EMAIL</label>
+              <input type="email" name="email" id="email" />
+            </div>
+            <div>
+              <label for="password">PASSWORD</label>
+              <input type="password" name="password" id="password" />
+            </div>
+          </div>
+          <div id="formsRight">
+            <div>
+              <label for="last-name">LAST NAME</label>
+              <input type="text" name="last-name" id="last-name" />
+            </div>
+            <div>
+              <label for="phone-number">PHONE NUMBER</label>
+              <input type="number" name="phone-number" id="phone-number" />
+            </div>
+            <div>
+              <label for="confire-password">CONFIRM PASSWORD</label>
+              <input
+                type="password"
+                name="confire-password"
+                id="confire-password"
+              />
+            </div>
+          </div>
+        </div>
+      </form>
+      <div id="signUp">
+        <button>Creat Account</button>
+      </div>
+      <div id="signIn">
+        <p>Already have an account? <a href="">Log in</a></p>
+      </div>
+    </section>
   </body>
 </html>
